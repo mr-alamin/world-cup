@@ -1,0 +1,311 @@
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+
+/* Start top banner section css */
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: black;
+    width: 1050px;
+    height:580px;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+
+/* Start top banner section left area */
+
+.left-info{
+    padding-left:50px;
+    padding-top:50px;
+    color:white;
+}
+
+.left-info h1{
+    font-size: 46px;
+    font-weight:bold !important;
+}
+
+.left-info p{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.left-info button{
+  padding:20px 30px;
+  background-color: red;
+  color:white;
+  cursor: pointer;
+}
+
+/* Start top banner right area */
+
+.right-img img{
+    padding:50px;
+    width:503px;
+}
+
+/* End top banner section css */
+
+/* Start from  section css */
+
+.from-group{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+    width: 800px;
+    margin-top:50px;
+
+}
+
+/* From group style only Visible tab device */
+
+.from-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    margin-top:50px;
+    display: none;
+}
+
+.from-items button{
+    padding:20px 10px;
+    border-radius:3px;
+}
+
+.from-items .blog-btn{
+    padding:20px 10px;
+    background-color:red;
+    color:#ffff;
+    border:none;
+    cursor: pointer;
+}
+
+/* Fourth blog  section style */
+
+.fourth-blog-container{
+    width: 1050px;
+    margin-top:50px;
+}
+
+.fourth-main-blog{
+    display: flex;
+    justify-content: end;
+    margin-right:140px;
+}
+
+.blogs-fourth-colums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+}
+
+.fourth-blog{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:95%;
+}
+
+.fourth-blog-flag{
+   width:95%;
+   height:200px;
+}
+
+.flag-details b{
+    margin-left: 40px;
+    margin-top:20px;
+}
+
+.flag-details span{
+    margin-left: 40px;
+    font-size:14px;
+}
+
+/* left from */
+
+.fourth-blog-upcoming{
+    width:250px;
+    height:250px;
+    background-color: black;
+}
+
+
+
+.fourth-blog-upcoming .btn-1{
+    padding:20px 30px;
+    margin-left:30px;
+    margin-top:10px;
+    background-color:#fff;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.fourth-blog-upcoming .btn-1 a{
+    text-decoration: none;
+    color:black;
+}
+
+.fourth-blog-upcoming .btn-2{
+    padding:20px 55px;
+    margin-left:30px;
+    background-color:#fff;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.fourth-blog-upcoming .btn-3{
+    padding:20px 65px;
+    margin-left:30px;
+    background-color:red;
+    color:#fff;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+/* Start blog  section css */
+
+.main-blog{
+    display: flex;
+    justify-content: end;
+    margin-right:100px;
+}
+
+.blog-container{
+    width: 900px;
+    margin-top:50px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+}
+
+.blog{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:84%;
+}
+
+.blog-banner img{
+    width:250px;
+    height:180px;
+}
+
+.fourth-blog-flag{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+
+.flag-blog-banner{
+    display: flex;
+}
+
+.flag-blog-banner img{
+    width:80px;
+    height:50px;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.flag-blog-banner b{
+   margin-top:60px;
+   padding-left:10px;
+}
+
+
+
+
+.blog-details button{
+    padding:5px 20px;
+    margin-left:10px;
+    background-color: white;
+    border:1px solid black;
+    box-shadow: inset;
+}
+
+.blog-details p{
+    font-size: 16px;
+    color:black;
+    margin-left:10px;
+}
+
+.blog-info{
+    display: flex;
+    margin-left:10px;
+    margin-bottom:7px;
+}
+
+/* Start footer section */
+
+footer{
+   margin-top: 50px;
+   background-color:black;
+   height:400px;
+}
+
+.footer-info{
+    text-align: center;
+    color:white;
+    padding-top:150px;
+}
+
+.footer-info b{
+    font-size:22px;
+    padding-bottom:10px;
+}
+
+
+.footer-nav ul {
+    list-style-type: none;
+}
+
+.footer-nav li{
+    display: inline;
+    padding:20px;
+    font-size: 14px;
+}
+
+.footer-nav li a{
+    text-decoration: none;
+    color:white;
+}
+
+/*View All button style only Visible tab device*/
+
+.btn button{
+    padding:20px 30px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    border:none;
+    cursor: pointer;
+    margin-top: 40px;
+    display: none;
+}
+
+/*Tab responsive media query*/
+
+@media screen and (max-width:810px-1080px){
+    .container{
+    background-color: red;
+    width: 700px;
+    height:580px;
+};
+
+.right-img img{
+    width:200px;
+}
+
+
+}
+
